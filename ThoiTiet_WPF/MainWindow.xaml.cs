@@ -27,7 +27,8 @@ namespace ThoiTiet_WPF
         private void Window_KeyUp(object sender, KeyEventArgs e)
         {
             if (e.Key == Key.Escape)
-                this.Close();
+                if (MessageBox.Show("Ban muon thoat chuong trinh", "thoat ?", MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.OK)
+                    this.Close();
         }
 
         private void Window_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
@@ -61,7 +62,8 @@ namespace ThoiTiet_WPF
 
         private void Image_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-            this.Close();
+            if(MessageBox.Show("Ban muon thoat chuong trinh", "thoat ?", MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.OK)
+                this.Close();
         }
     }
 }

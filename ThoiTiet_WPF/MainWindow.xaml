@@ -28,7 +28,7 @@
         <!--row 2-->
             <StackPanel Orientation="Horizontal" Grid.Row="1" HorizontalAlignment="Center">
                 <Image Source="Images/icoMoon.png" />
-                <Slider Width="300" VerticalAlignment="Center" Value="1" Minimum="0" Maximum="1" ValueChanged="Slider_ValueChanged" Name="sldTimer"></Slider>
+                <Slider Width="300" VerticalAlignment="Center" Value="1" Minimum="0" Maximum="1"  ValueChanged="Slider_ValueChanged" Name="sldTimer"></Slider>
                 <Image Source="Images/icoSun.png" />
             </StackPanel>
         <!-- /row 2-->
