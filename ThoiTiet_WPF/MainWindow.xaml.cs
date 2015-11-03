@@ -46,17 +46,13 @@ namespace ThoiTiet_WPF
             imgBg.Opacity = imgSuny.Opacity = sldTimer.Value;
         }
 
-        TextBlock txbSelected = new TextBlock();
-        private void TextBlock_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
-        {
-            txbSelected.Margin = new Thickness(0, 15, 0, 0);
-            txbSelected = (TextBlock)sender;
-            txbSelected.Margin = new Thickness(0, 0, 0, 0);
-        }
-
+        StackPanel stpSelected = new StackPanel();
         private void StackPanel_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-            StackPanel stpSelected = (StackPanel)sender;
+            stpSelected.Margin = new Thickness(0, 15, 0, 0);
+            stpSelected = (StackPanel)sender;
+            stpSelected.Margin = new Thickness(0, 0, 0, 0);
+
             imgHinhThoiTiet.Source = ((Image)stpSelected.Children[1]).Source;
             txbNhietDo.Text = ((TextBlock)stpSelected.Children[2]).Text;
             txbGio.Text = "Wind: " + ((TextBlock)stpSelected.Children[3]).Text.Substring(3);
