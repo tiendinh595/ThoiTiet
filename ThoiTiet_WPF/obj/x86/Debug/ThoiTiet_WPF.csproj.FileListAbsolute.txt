@@ -1,0 +1,13 @@
+D:\ThoiTiet_WPF\ThoiTiet_WPF\bin\Debug\ThoiTiet_WPF.exe
+D:\ThoiTiet_WPF\ThoiTiet_WPF\bin\Debug\ThoiTiet_WPF.pdb
+D:\ThoiTiet_WPF\ThoiTiet_WPF\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\ThoiTiet_WPF\ThoiTiet_WPF\obj\x86\Debug\MainWindow.baml
+D:\ThoiTiet_WPF\ThoiTiet_WPF\obj\x86\Debug\MainWindow.g.cs
+D:\ThoiTiet_WPF\ThoiTiet_WPF\obj\x86\Debug\App.g.cs
+D:\ThoiTiet_WPF\ThoiTiet_WPF\obj\x86\Debug\ThoiTiet_WPF_MarkupCompile.cache
+D:\ThoiTiet_WPF\ThoiTiet_WPF\obj\x86\Debug\ThoiTiet_WPF.g.resources
+D:\ThoiTiet_WPF\ThoiTiet_WPF\obj\x86\Debug\ThoiTiet_WPF.Properties.Resources.resources
+D:\ThoiTiet_WPF\ThoiTiet_WPF\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\ThoiTiet_WPF\ThoiTiet_WPF\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\ThoiTiet_WPF\ThoiTiet_WPF\obj\x86\Debug\ThoiTiet_WPF.exe
+D:\ThoiTiet_WPF\ThoiTiet_WPF\obj\x86\Debug\ThoiTiet_WPF.pdb
