@@ -19,7 +19,7 @@
             <Image Source="Images/night_back.jpg" Grid.RowSpan="4" Stretch="Fill"/>
             <Image Source="Images/background.png" Grid.RowSpan="4" Stretch="Fill" Name="imgBg"/>
             <!--/background-->
-            <Image Source="Images/winClose.png" Width="24" HorizontalAlignment="Right" VerticalAlignment="Top" MouseLeftButtonDown="Image_MouseLeftButtonDown" />
+            <Image Source="Images/winClose.png" Width="16" HorizontalAlignment="Right" VerticalAlignment="Top" MouseLeftButtonDown="Image_MouseLeftButtonDown" Margin="5" />
         
             <Image Source="Images/Moon.png" Height="200"/>
             <Image Source="Images/Sunny.png" Name="imgSuny" />
@@ -61,50 +61,50 @@
                         <TextBlock Text="Mon" TextDecorations="UnderLine" FontSize="18" Foreground="White" HorizontalAlignment="Center" />
                         <Image Source="Images/0.png" HorizontalAlignment="Center" />
                         <TextBlock Text="25*" FontSize="16" Foreground="White" HorizontalAlignment="Center" />
-                        <TextBlock Text="H: 100%" FontSize="12" Foreground="White" HorizontalAlignment="Center" />
-                        <TextBlock Text="W: 100km/h" FontSize="12" Foreground="White" HorizontalAlignment="Center" />
+                        <TextBlock Text="H: 100%" FontSize="10" Foreground="White" HorizontalAlignment="Center" />
+                        <TextBlock Text="W: 100km/h" FontSize="10" Foreground="White" HorizontalAlignment="Center" />
                     </StackPanel>
                     <StackPanel Background="Blue" Margin="0 15 0 0" MouseLeftButtonDown="StackPanel_MouseLeftButtonDown">
                         <TextBlock Text="Mon" TextDecorations="UnderLine" FontSize="18" Foreground="White" HorizontalAlignment="Center" />
                         <Image Source="Images/1.png" HorizontalAlignment="Center" />
                         <TextBlock Text="25*" FontSize="16" Foreground="White" HorizontalAlignment="Center" />
-                        <TextBlock Text="H: 100%" FontSize="12" Foreground="White" HorizontalAlignment="Center" />
-                        <TextBlock Text="W: 100km/h" FontSize="12" Foreground="White" HorizontalAlignment="Center" />
+                        <TextBlock Text="H: 100%" FontSize="10" Foreground="White" HorizontalAlignment="Center" />
+                        <TextBlock Text="W: 100km/h" FontSize="10" Foreground="White" HorizontalAlignment="Center" />
                     </StackPanel>
                     <StackPanel Background="Pink" Margin="0 15 0 0" MouseLeftButtonDown="StackPanel_MouseLeftButtonDown">
                         <TextBlock Text="Mon" TextDecorations="UnderLine" FontSize="18" Foreground="White" HorizontalAlignment="Center" />
                         <Image Source="Images/2.png" HorizontalAlignment="Center" />
                         <TextBlock Text="25*" FontSize="16" Foreground="White" HorizontalAlignment="Center" />
-                        <TextBlock Text="H: 100%" FontSize="12" Foreground="White" HorizontalAlignment="Center" />
-                        <TextBlock Text="W: 100km/h" FontSize="12" Foreground="White" HorizontalAlignment="Center" />
+                        <TextBlock Text="H: 100%" FontSize="10" Foreground="White" HorizontalAlignment="Center" />
+                        <TextBlock Text="W: 100km/h" FontSize="10" Foreground="White" HorizontalAlignment="Center" />
                     </StackPanel>
                     <StackPanel Background="Gray" Margin="0 15 0 0" MouseLeftButtonDown="StackPanel_MouseLeftButtonDown">
                         <TextBlock Text="Mon" TextDecorations="UnderLine" FontSize="18" Foreground="White" HorizontalAlignment="Center" />
                         <Image Source="Images/3.png" HorizontalAlignment="Center" />
                         <TextBlock Text="25*" FontSize="16" Foreground="White" HorizontalAlignment="Center" />
-                        <TextBlock Text="H: 100%" FontSize="12" Foreground="White" HorizontalAlignment="Center" />
-                        <TextBlock Text="W: 100km/h" FontSize="12" Foreground="White" HorizontalAlignment="Center" />
+                        <TextBlock Text="H: 100%" FontSize="10" Foreground="White" HorizontalAlignment="Center" />
+                        <TextBlock Text="W: 100km/h" FontSize="10" Foreground="White" HorizontalAlignment="Center" />
                     </StackPanel>
                     <StackPanel Background="DarkBlue" Margin="0 15 0 0" MouseLeftButtonDown="StackPanel_MouseLeftButtonDown">
                         <TextBlock Text="Mon" TextDecorations="UnderLine" FontSize="18" Foreground="White" HorizontalAlignment="Center" />
                         <Image Source="Images/4.png" HorizontalAlignment="Center" />
                         <TextBlock Text="25*" FontSize="16" Foreground="White" HorizontalAlignment="Center" />
-                        <TextBlock Text="H: 100%" FontSize="12" Foreground="White" HorizontalAlignment="Center" />
-                        <TextBlock Text="W: 100km/h" FontSize="12" Foreground="White" HorizontalAlignment="Center" />
+                        <TextBlock Text="H: 100%" FontSize="10" Foreground="White" HorizontalAlignment="Center" />
+                        <TextBlock Text="W: 100km/h" FontSize="10" Foreground="White" HorizontalAlignment="Center" />
                     </StackPanel>
                     <StackPanel Background="Gray" Margin="0 15 0 0" MouseLeftButtonDown="StackPanel_MouseLeftButtonDown">
                         <TextBlock Text="Mon" TextDecorations="UnderLine" FontSize="18" Foreground="White" HorizontalAlignment="Center" />
                         <Image Source="Images/5.png" HorizontalAlignment="Center" />
                         <TextBlock Text="25*" FontSize="16" Foreground="White" HorizontalAlignment="Center" />
-                        <TextBlock Text="H: 100%" FontSize="12" Foreground="White" HorizontalAlignment="Center" />
-                        <TextBlock Text="W: 100km/h" FontSize="12" Foreground="White" HorizontalAlignment="Center" />
+                        <TextBlock Text="H: 100%" FontSize="10" Foreground="White" HorizontalAlignment="Center" />
+                        <TextBlock Text="W: 100km/h" FontSize="10" Foreground="White" HorizontalAlignment="Center" />
                     </StackPanel>
                     <StackPanel Background="DarkCyan" Margin="0 15 0 0" MouseLeftButtonDown="StackPanel_MouseLeftButtonDown">
                         <TextBlock Text="Mon" TextDecorations="UnderLine" FontSize="18" Foreground="White" HorizontalAlignment="Center" />
                         <Image Source="Images/6.png" HorizontalAlignment="Center" />
                         <TextBlock Text="20*" FontSize="16" Foreground="White" HorizontalAlignment="Center" />
-                        <TextBlock Text="H: 100%" FontSize="12" Foreground="White" HorizontalAlignment="Center" />
-                        <TextBlock Text="W: 100km/h" FontSize="12" Foreground="White" HorizontalAlignment="Center" />
+                        <TextBlock Text="H: 100%" FontSize="10" Foreground="White" HorizontalAlignment="Center" />
+                        <TextBlock Text="W: 100km/h" FontSize="10" Foreground="White" HorizontalAlignment="Center" />
                     </StackPanel>
             </UniformGrid>
         </Grid>
